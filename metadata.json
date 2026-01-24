@@ -1,0 +1,5 @@
+{
+  "name": "ShortsArchitect",
+  "description": "AI-powered tool to repurpose long-form videos into viral short-form content concepts using Gemini 1.5 Pro.",
+  "requestFramePermissions": []
+}
