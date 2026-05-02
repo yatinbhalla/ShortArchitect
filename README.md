@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ShortArchitect
 
-# Run and deploy your AI Studio app
+An AI tool that repurposes long-form videos into viral short-form content concepts — scripts, hooks, captions, and posting strategy — powered by Gemini 1.5 Pro.
 
-This contains everything you need to run your app locally.
+The problem it solves: creators have hours of good long-form content but no bandwidth to extract short-form value from it efficiently. ShortArchitect handles the creative heavy lifting.
 
-View your app in AI Studio: https://ai.studio/apps/drive/13shkdyo3RiI1PF-jWnTR_xnB39n8sApM
+We use the following tech stack:
+- Google Gemini 1.5 Pro for content analysis and script generation
+- TypeScript + React for the interface
+- Tailwind CSS for styling
 
-## Run Locally
+## 🚀 Features
 
-**Prerequisites:**  Node.js
+* **Smart Moment Detection:** AI identifies the most engaging segments from long-form content
+* **Script Generator:** Rewrites key moments into 15s, 30s, or 60s platform-optimized scripts
+* **Hook Generator:** Creates multiple opening lines per clip — the make-or-break first 3 seconds
+* **Caption & Hashtag Package:** Platform-specific captions and hashtag sets for each clip
+* **Posting Strategy:** Recommends the right platform, format, and timing for each piece of content
+* **Batch Output:** Produces 5–10 short-form concepts from a single long video
 
+## Supported Platforms
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* Instagram Reels (15–90s vertical)
+* YouTube Shorts (≤60s vertical)
+* LinkedIn (30–90s landscape or square)
+* TikTok (15–60s vertical)
+
+## Setup
+
+```bash
+git clone https://github.com/yatinbhalla/ShortArchitect.git
+cd ShortArchitect
+npm install
+echo "GEMINI_API_KEY=your_key_here" > .env.local
+npm run dev
+```
+
+## Author
+
+Yatin Bhalla
+<br>
+🛍️ PM & AI builder | Managing retail businesses | PG Product Management @ BITS School of Management
+<br>
+🔗 [linkedin.com/in/yatin-bhalla-834632238](https://linkedin.com/in/yatin-bhalla-834632238)
